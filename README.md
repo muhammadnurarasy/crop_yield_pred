@@ -50,15 +50,12 @@ print(f'MAE: {mae}')
 print(f'MSE: {mse}')
 print(f'R² Score: {r2}')
 
+# Import Necessary Module for Publishing
 import streamlit as st
 import pandas as pd
 import xgboost as xgb
 import numpy as np
 
-# Load your trained model
-# Ensure the model is loaded correctly, e.g.,
-# best_model = xgb.XGBRegressor(...)
-# best_model.load_model('path_to_your_model_file')
 
 # Define the app layout
 st.title('Crop Yield Prediction App')
